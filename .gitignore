@@ -35,3 +35,9 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+#juice-shop files, will use provided docker image instead
+juice-shop/*
+
+#ignore proxmox api file
+proxmox-api.txt
